@@ -4,29 +4,278 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy - Incentiv Assistant</title>
+  <meta name="description" content="Privacy Policy for Incentiv Assistant and its Discord community management and points distribution features.">
+  <meta name="theme-color" content="#101322">
+  <title>Privacy Policy | Incentiv Assistant</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0e17;
+      --panel: #121725;
+      --text: #edf0fa;
+      --muted: #a4adc2;
+      --accent: #9c8cff;
+      --border: #293146;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topbar { border-bottom: 1px solid var(--border); background: #0e1220; }
+    .nav, main, footer {
+      width: min(1080px, calc(100% - 40px));
+      margin: auto;
+    }
+    .nav {
+      min-height: 76px; display: flex; align-items: center;
+      justify-content: space-between; gap: 20px;
+    }
+    .brand { font-weight: 750; font-size: 19px; letter-spacing: -.4px; }
+    .navlinks { display: flex; gap: 22px; flex-wrap: wrap; }
+    main { padding: 64px 0 80px; }
+    .eyebrow {
+      color: var(--accent); text-transform: uppercase;
+      letter-spacing: 2px; font-size: 12px; font-weight: 750;
+    }
+    h1 {
+      font-size: clamp(36px, 6vw, 58px); line-height: 1.12;
+      letter-spacing: -2px; margin: 12px 0 18px;
+    }
+    .intro { max-width: 720px; color: var(--muted); font-size: 18px; }
+    .updated { color: var(--muted); font-size: 14px; margin-top: 24px; }
+    .layout {
+      display: grid; grid-template-columns: 245px minmax(0, 1fr);
+      gap: 42px; align-items: start; margin-top: 48px;
+    }
+    aside, .content section {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+    aside { padding: 22px; position: sticky; top: 20px; }
+    aside h2 { font-size: 14px; margin: 0 0 12px; }
+    aside a { display: block; color: var(--muted); padding: 5px 0; font-size: 14px; }
+    .content section {
+      padding: 26px 28px; margin-bottom: 18px; scroll-margin-top: 20px;
+    }
+    h2 { font-size: 21px; line-height: 1.35; margin: 0 0 14px; }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 22px; margin: 10px 0 0; }
+    li { margin: 6px 0; }
+    .contact { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+    .button {
+      display: inline-block; padding: 10px 15px; border: 1px solid var(--border);
+      border-radius: 10px; background: #1b2234; font-weight: 650;
+    }
+    footer {
+      border-top: 1px solid var(--border); padding: 26px 0 36px;
+      color: var(--muted); font-size: 13px;
+      display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+    }
+    @media (max-width: 720px) {
+      .nav { align-items: flex-start; flex-direction: column; padding: 18px 0; }
+      main { padding-top: 42px; }
+      .layout { grid-template-columns: 1fr; gap: 20px; }
+      aside { position: static; }
+      .content section { padding: 22px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Last updated: October 22, 2026</p>
+  <header class="topbar">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="https://awuldhee.github.io/incentiv-assistant-legal/" style="color:var(--text)">Incentiv Assistant</a>
+      <div class="navlinks">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:channelxcr@gmail.com">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <p>Incentiv Assistant may process Discord user IDs, server IDs,
-  usernames, and interaction data to provide its features.</p>
+  <main>
+    <div class="eyebrow">Legal · Incentiv Assistant</div>
+    <h1>Privacy Policy</h1>
+    <p class="intro">
+      This policy explains how Incentiv Assistant may handle information
+      when you use its community management and points distribution features
+      on Discord.
+    </p>
+    <p class="updated">Last updated: October 22, 2026</p>
 
-  <h2>Use of Information</h2>
-  <p>Information is used to operate, maintain, and improve the bot's
-  functionality.</p>
+    <div class="layout">
+      <aside>
+        <h2>On this page</h2>
+        <a href="#scope">1. Scope</a>
+        <a href="#information">2. Information We Handle</a>
+        <a href="#use">3. How Information Is Used</a>
+        <a href="#storage">4. Storage and Retention</a>
+        <a href="#sharing">5. Sharing and Service Providers</a>
+        <a href="#security">6. Security</a>
+        <a href="#choices">7. Your Choices and Requests</a>
+        <a href="#children">8. Children and Age Requirements</a>
+        <a href="#changes">9. Policy Updates</a>
+        <a href="#contact">10. Contact</a>
+      </aside>
 
-  <h2>Data Sharing</h2>
-  <p>Information is not intentionally sold to third parties.
-  Data may be processed by service providers necessary to operate the bot.</p>
+      <div class="content">
+        <section id="scope">
+          <h2>1. Scope</h2>
+          <p>
+            This Privacy Policy applies to Incentiv Assistant, a Discord bot
+            used for community management and points distribution in servers
+            where it has been invited and configured.
+          </p>
+          <p>
+            Discord also processes information under its own privacy policy.
+            This policy describes the bot operator's practices and is not a
+            substitute for Discord's policies.
+          </p>
+        </section>
 
-  <h2>Data Requests</h2>
-  <p>For questions or data-related requests, contact the application
-  owner through the relevant Discord community.</p>
+        <section id="information">
+          <h2>2. Information We Handle</h2>
+          <p>
+            To provide the bot's features, Incentiv Assistant may handle
+            the following categories of information:
+          </p>
+          <ul>
+            <li><strong>Discord User IDs:</strong> to identify users interacting with the bot.</li>
+            <li><strong>Discord Server IDs:</strong> to associate activity and configuration with a server.</li>
+            <li><strong>Usernames:</strong> to identify or display users within bot features.</li>
+            <li><strong>Bot activity and commands:</strong> information about interactions with bot commands, where processed or recorded.</li>
+            <li><strong>Points or balances:</strong> values used by the bot's points distribution features.</li>
+          </ul>
+          <p>
+            The exact fields recorded, whether command contents or logs are
+            retained, and whether additional technical data is collected
+            must be confirmed against the bot's actual implementation.
+          </p>
+        </section>
 
-  <h2>Policy Updates</h2>
-  <p>This policy may be updated when the bot's features or data
-  practices change.</p>
+        <section id="use">
+          <h2>3. How Information Is Used</h2>
+          <p>Information may be used to:</p>
+          <ul>
+            <li>Provide community management and points distribution features.</li>
+            <li>Associate users and points records with the relevant Discord server.</li>
+            <li>Respond to support requests and investigate reported errors or abuse.</li>
+            <li>Maintain the operation, integrity, and security of the bot.</li>
+          </ul>
+          <p>
+            Information should not be used for unrelated purposes unless
+            permitted by applicable law or otherwise explained to users.
+          </p>
+        </section>
+
+        <section id="storage">
+          <h2>4. Storage and Retention</h2>
+          <p>
+            The operator reports that bot data is stored in a database
+            hosted on the operator's own VPS environment.
+          </p>
+          <p>
+            Data is intended to be retained for as long as necessary to
+            operate the bot and provide its features. Actual retention
+            periods, backup practices, and deletion procedures depend on
+            the system configuration and must be confirmed by the operator.
+          </p>
+        </section>
+
+        <section id="sharing">
+          <h2>5. Sharing and Service Providers</h2>
+          <p>
+            The operator reports that user information is not intentionally
+            shared with other parties.
+          </p>
+          <p>
+            However, the VPS hosting provider may technically process or
+            access data as part of hosting, maintenance, security, or
+            troubleshooting. The operator should confirm the provider's
+            access and data-processing arrangements before publishing this
+            statement as a complete description of data sharing.
+          </p>
+          <p>
+            Information may also need to be disclosed where required by
+            applicable law or a valid legal process.
+          </p>
+        </section>
+
+        <section id="security">
+          <h2>6. Security</h2>
+          <p>
+            The operator should use reasonable safeguards to protect stored
+            information against unauthorized access, loss, alteration, or
+            disclosure. No internet-connected system can be guaranteed
+            completely secure.
+          </p>
+          <p>
+            Specific safeguards, such as access controls, encryption,
+            backups, and monitoring, have not been confirmed in this policy.
+          </p>
+        </section>
+
+        <section id="choices">
+          <h2>7. Your Choices and Requests</h2>
+          <p>
+            If you have a question about information associated with your
+            use of Incentiv Assistant, you can contact the operator using
+            the details below.
+          </p>
+          <p>
+            Requests to access, correct, or delete information will be
+            reviewed where reasonably possible and subject to technical
+            limitations, applicable law, and any necessary retention
+            requirements. A specific deletion process has not yet been
+            confirmed.
+          </p>
+        </section>
+
+        <section id="children">
+          <h2>8. Children and Age Requirements</h2>
+          <p>
+            Users must comply with Discord's minimum age requirements and
+            applicable local laws. This policy does not establish a separate
+            age threshold for Incentiv Assistant.
+          </p>
+        </section>
+
+        <section id="changes">
+          <h2>9. Policy Updates</h2>
+          <p>
+            This policy may be updated when the bot's features, data
+            practices, or legal requirements change. The latest version
+            will be published on this page with an updated date where
+            appropriate.
+          </p>
+        </section>
+
+        <section id="contact">
+          <h2>10. Contact</h2>
+          <p>
+            For privacy questions or data-related requests, contact the
+            Incentiv Assistant operator:
+          </p>
+          <div class="contact">
+            <a class="button" href="mailto:channelxcr@gmail.com">Email Support</a>
+            <a class="button" href="https://discord.com/users/1120763518761828392"
+               target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span>© 2026 Incentiv Assistant. All rights reserved.</span>
+    <span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+  </footer>
 </body>
 </html>
