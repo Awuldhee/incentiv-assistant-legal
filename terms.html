@@ -4,25 +4,273 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Terms of Service - Incentiv Assistant</title>
+  <meta name="description" content="Terms of Service for Incentiv Assistant, a Discord community management and points distribution bot.">
+  <meta name="theme-color" content="#101322">
+  <title>Terms of Service | Incentiv Assistant</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0e17;
+      --panel: #121725;
+      --text: #edf0fa;
+      --muted: #a4adc2;
+      --accent: #9c8cff;
+      --border: #293146;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topbar {
+      border-bottom: 1px solid var(--border);
+      background: #0e1220;
+    }
+    .nav, main, footer {
+      width: min(1080px, calc(100% - 40px));
+      margin: auto;
+    }
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { font-weight: 750; font-size: 19px; letter-spacing: -.4px; }
+    .navlinks { display: flex; gap: 22px; flex-wrap: wrap; }
+    main { padding: 64px 0 80px; }
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      font-weight: 750;
+    }
+    h1 {
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.12;
+      letter-spacing: -2px;
+      margin: 12px 0 18px;
+    }
+    .intro { max-width: 720px; color: var(--muted); font-size: 18px; }
+    .updated { color: var(--muted); font-size: 14px; margin-top: 24px; }
+    .layout {
+      display: grid;
+      grid-template-columns: 245px minmax(0, 1fr);
+      gap: 42px;
+      align-items: start;
+      margin-top: 48px;
+    }
+    aside, .content section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+    aside { padding: 22px; position: sticky; top: 20px; }
+    aside h2 { font-size: 14px; margin: 0 0 12px; }
+    aside a { display: block; color: var(--muted); padding: 5px 0; font-size: 14px; }
+    .content section { padding: 26px 28px; margin-bottom: 18px; scroll-margin-top: 20px; }
+    h2 { font-size: 21px; line-height: 1.35; margin: 0 0 14px; }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 22px; margin: 10px 0 0; }
+    li { margin: 6px 0; }
+    .contact {
+      display: flex; flex-wrap: wrap; gap: 12px;
+      margin-top: 18px;
+    }
+    .button {
+      display: inline-block; padding: 10px 15px;
+      border: 1px solid var(--border); border-radius: 10px;
+      background: #1b2234; font-weight: 650;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 26px 0 36px;
+      color: var(--muted); font-size: 13px;
+      display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+    }
+    @media (max-width: 720px) {
+      .nav { align-items: flex-start; flex-direction: column; padding: 18px 0; }
+      main { padding-top: 42px; }
+      .layout { grid-template-columns: 1fr; gap: 20px; }
+      aside { position: static; }
+      .content section { padding: 22px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Terms of Service</h1>
-  <p>Last updated: October 22, 2026</p>
+  <header class="topbar">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="https://awuldhee.github.io/incentiv-assistant-legal/" style="color:var(--text)">Incentiv Assistant</a>
+      <div class="navlinks">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:channelxcr@gmail.com">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <p>Incentiv Assistant is a Discord bot designed to provide
-  community features and server management functionality.</p>
+  <main>
+    <div class="eyebrow">Legal · Incentiv Assistant</div>
+    <h1>Terms of Service</h1>
+    <p class="intro">
+      These terms govern your use of Incentiv Assistant, a Discord bot
+      designed to support community management and points distribution.
+    </p>
+    <p class="updated">Last updated: October 22, 2026</p>
 
-  <h2>Acceptable Use</h2>
-  <p>Users must use the bot lawfully and comply with Discord's
-  Terms of Service and Community Guidelines.</p>
-  <p>Users must not abuse, exploit, or attempt to disrupt the bot.</p>
+    <div class="layout">
+      <aside>
+        <h2>On this page</h2>
+        <a href="#acceptance">1. Acceptance of Terms</a>
+        <a href="#service">2. The Service</a>
+        <a href="#eligibility">3. Access and Eligibility</a>
+        <a href="#conduct">4. Acceptable Use</a>
+        <a href="#points">5. Points and Balances</a>
+        <a href="#availability">6. Availability and Changes</a>
+        <a href="#termination">7. Suspension and Termination</a>
+        <a href="#disclaimer">8. Disclaimer</a>
+        <a href="#changes">9. Changes to These Terms</a>
+        <a href="#contact">10. Contact</a>
+      </aside>
 
-  <h2>Availability</h2>
-  <p>Features may be updated, suspended, or discontinued when necessary.</p>
+      <div class="content">
+        <section id="acceptance">
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By accessing or using Incentiv Assistant, you agree to these
+            Terms of Service and to comply with Discord's Terms of Service,
+            Community Guidelines, and applicable server rules.
+          </p>
+          <p>If you do not agree to these terms, do not use the bot.</p>
+        </section>
 
-  <h2>Contact</h2>
-  <p>For questions, contact the application owner through the
-  Discord community where the bot is used.</p>
+        <section id="service">
+          <h2>2. The Service</h2>
+          <p>
+            Incentiv Assistant provides community management and points
+            distribution functionality within Discord servers where it
+            has been invited and configured.
+          </p>
+          <p>
+            Features may vary by server configuration and may be changed
+            as the service develops.
+          </p>
+        </section>
+
+        <section id="eligibility">
+          <h2>3. Access and Eligibility</h2>
+          <p>
+            The bot is intended for members of Discord servers where
+            Incentiv Assistant is available. Your use may be subject to
+            permissions, roles, and rules established by the relevant
+            server administrators.
+          </p>
+          <p>
+            You are responsible for keeping your Discord account secure
+            and for activity performed through your account.
+          </p>
+        </section>
+
+        <section id="conduct">
+          <h2>4. Acceptable Use</h2>
+          <p>You agree not to:</p>
+          <ul>
+            <li>Use the bot in violation of Discord's rules or applicable law.</li>
+            <li>Exploit bugs or attempt to manipulate points or balances unfairly.</li>
+            <li>Interfere with the bot, its infrastructure, or its intended operation.</li>
+            <li>Use the bot to harass others, commit fraud, or facilitate abuse.</li>
+            <li>Attempt to gain unauthorized access to the bot or its data.</li>
+          </ul>
+          <p>
+            Server administrators may enforce additional rules within
+            their own communities.
+          </p>
+        </section>
+
+        <section id="points">
+          <h2>5. Points and Balances</h2>
+          <p>
+            Points or balances displayed by the bot are governed by the
+            features and rules of the relevant community.
+          </p>
+          <p>
+            Do not assume that points have monetary value, can be exchanged
+            for money, or can be transferred outside the service unless
+            the operator has expressly confirmed this in separate official
+            terms.
+          </p>
+          <p>
+            If you believe a points balance is incorrect, contact the
+            relevant server administrators or the application owner.
+          </p>
+        </section>
+
+        <section id="availability">
+          <h2>6. Availability and Changes</h2>
+          <p>
+            We aim to operate the service reliably but do not guarantee
+            uninterrupted, error-free, or continuous availability.
+          </p>
+          <p>
+            Features may be updated, temporarily suspended, or discontinued
+            when necessary for maintenance, security, or operational reasons.
+          </p>
+        </section>
+
+        <section id="termination">
+          <h2>7. Suspension and Termination</h2>
+          <p>
+            Access to the bot may be restricted or discontinued where
+            necessary to protect the service, enforce these terms, respond
+            to abuse, or comply with applicable requirements.
+          </p>
+        </section>
+
+        <section id="disclaimer">
+          <h2>8. Disclaimer</h2>
+          <p>
+            To the extent permitted by applicable law, the service is
+            provided on an "as available" basis. Nothing in these terms
+            excludes rights or protections that cannot lawfully be excluded.
+          </p>
+        </section>
+
+        <section id="changes">
+          <h2>9. Changes to These Terms</h2>
+          <p>
+            These terms may be revised when the service or its requirements
+            change. The updated version will be published on this page with
+            a revised date where appropriate.
+          </p>
+        </section>
+
+        <section id="contact">
+          <h2>10. Contact</h2>
+          <p>
+            For questions about these terms, contact the application owner.
+          </p>
+          <div class="contact">
+            <a class="button" href="mailto:channelxcr@gmail.com">Email Support</a>
+            <a class="button" href="https://discord.com/users/1120763518761828392"
+               target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span>© 2026 Incentiv Assistant. All rights reserved.</span>
+    <span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+  </footer>
 </body>
 </html>
